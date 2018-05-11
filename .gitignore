@@ -1,2 +1,5 @@
 //Ignore output file
 *.o
+
+//Test folder
+test/

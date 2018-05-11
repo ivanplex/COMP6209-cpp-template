@@ -8,7 +8,8 @@ int main ()
 {
 	int variable = 5;
 
-	Equation
+	//Equation
+	typedef
 	ADD<
 	  	VAR,
 	  	MULTIPLY<
@@ -23,7 +24,5 @@ int main ()
 		>
 	> expr;
 
-
-	cout << expr.eval(variable);
-
+	printf("f(%d): %d\n",variable,expr::eval(variable));
 };
